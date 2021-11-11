@@ -205,6 +205,12 @@ label{
   margin: 10px 10px 0 10px;
 }
 
+.car-list span{
+  width: 200px;
+  max-width: 200px;
+  word-wrap: break-word;
+}
+
 .car-list button{
   font-weight: bold;
   font-size: 14px;
