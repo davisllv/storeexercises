@@ -1,0 +1,234 @@
+/* ==================RESET================== */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  font-family: "Work Sans", sans-serif;
+  background-color: rgb(244, 248, 250);
+}
+
+/* ==================HEADER================== */
+
+#header {
+  border: 1px solid #e4e4e4;
+  width: 100%;
+  display: flex;
+  padding: 25px 0 25px 0;
+  box-shadow: 0px 0px 12px rgba(0,0,0,0.1);
+  background-color: rgb(255, 255, 255);
+}
+
+#header a {
+    font-style: italic;
+    font-size: 20px;
+    color: black
+}
+
+/* ==================LOGO================== */
+.logo{
+  font: 700 5rem Arial, Helvetica, sans-serif;
+  margin-left: 30px;
+  
+}
+.logo span{
+  color: red;
+}
+/* ==================NAV================== */
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav ul li {
+  text-align: center;
+  display: inline;
+  margin-right: 30px;
+}
+
+
+nav ul li button {
+  border: none;
+  font-size: 16px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  transition: color 0.2s;
+  width: 100px;
+  height: 25px;
+  transition: color 0.3s;
+}
+
+nav ul li button:hover{
+  background-color: rgb(27, 49, 168);
+  color: whitesmoke;
+}
+
+
+.ativo{
+  background-color: rgb(27, 49, 168);
+  color: whitesmoke;
+}
+.button-span{
+  color: red;
+}
+
+
+/* ==================CONTAINER================== */
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container h4 {
+  font-size: 20px;
+  text-align: center;
+  margin: 24px 0 24px 0;
+}
+
+/* ==================CADASTRO================== */
+.boxes{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  padding: 35px 12rem 40px;
+  box-shadow: rgb(30 42 50 / 8%) 0px 16px 32px;
+}
+
+.name-box, .price-box{
+  margin-bottom: 24px;
+}
+.input-name-div, .price-input-div, .amount-input-div{
+  border: 1px solid rgb(233, 238, 242);
+  border-radius: 4px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  margin-top: 10px;
+}
+
+.input-name, .price-input, .amount-input{
+  width: 100%;
+  border: none;
+  padding: 15px 40px 15px 40px;
+}
+
+label{
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 600;
+}
+.btns-boxes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btns-boxes button{
+  cursor: pointer;
+  margin-top: 20px;
+  border:none;
+  width: 12rem;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(27, 49, 168);
+  color: whitesmoke;
+}
+
+.btns-boxes button:hover{
+  background-color:rgb(20, 71, 210);
+}
+
+
+/* ==================LISTAGEM================== */
+.boxes-list{
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  max-width: 700px;
+  padding: 12px 12px 12px 12px;
+  box-shadow: rgb(30 42 50 / 8%) 0px 16px 32px;
+}
+
+.boxes-list ul li {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px 0 10px;
+  
+}
+
+.boxes-list ul li:not(:last-child){
+  margin-bottom: 30px;
+}
+
+.price-row{
+  font-style: italic;
+}
+.add-button{
+  cursor: pointer;
+  color: white;
+  background-color: #FF4500;
+  height: 30px;
+  width: 150px;
+  border: none;
+  border-radius: 30px;
+}
+
+/* ==================CARRINHO================== */
+.boxes-car-list{
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  max-width: 1000px;
+  padding: 12px 12px 12px 12px;
+  box-shadow: rgb(30 42 50 / 8%) 0px 16px 32px;
+}
+
+.boxes-car-list ul li {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px 0 10px;
+}
+
+.car-list button{
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  height: 25px;
+  width: 35px;
+  background-color: #C0C0C0;
+}
+
+.car-list button:active{
+  background-color: SlateGrey;
+} 
+
+
+.car-list .add{
+  margin-right: 10px;
+}
+
+.result {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px 0 10px; /*  */
+  font-size: 15px;
+}
+
+
